@@ -1,0 +1,35 @@
+.photo img{
+    width: 50px;
+}
+.nom img{
+    width: 50px;
+}
+.adresse img{
+    width: 50px;
+}
+.mail img{
+    width: 50px;
+}
+.permis img{
+    width: 50px;
+}
+.identite{
+    display: block;
+    display: flex;
+    padding-right: 10px;
+}
+.Experience img{
+    width: 50px;
+}
+.Formation img{
+    width: 50px;
+}
+.Competence img{
+    width: 50px;
+}
+.Qualite img{
+    width: 50px;
+}
+.Loisir img{
+    width: 50px;
+}
