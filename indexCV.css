@@ -1,23 +1,34 @@
 .photo img{
-    width: 50px;
-}
-.nom img{
-    width: 50px;
-}
-.adresse img{
-    width: 50px;
-}
-.mail img{
-    width: 50px;
-}
-.permis img{
+    float: left;
     width: 50px;
 }
 .identite{
-    display: block;
-    display: flex;
-    padding-right: 10px;
+    border-style: hidden;
+    background-color: aqua;
+    width: auto;
+    height: auto;
+    float:right;
 }
+.identite p{
+    font-size: larger;
+}
+.nom img{
+    width: 50px;
+    display: inline;
+}
+.adresse img{
+    width: 50px;
+    display: inline;
+}
+.mail img{
+    width: 50px;
+    display:inline;
+}
+.permis img{
+    width: 50px;
+    display: inline;
+}
+
 .Experience img{
     width: 50px;
 }
