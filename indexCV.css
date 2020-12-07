@@ -1,46 +1,200 @@
-.photo img{
+/*acceuil*/
+#titre{
+    text-align: center;
+    font: bolder;
+    font-size: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+hr{
+    color: blueviolet;
+}
+#nom{
+    text-align: center;
+    font: bolder;
+    font-size: 50px ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
     float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 130px;
+    text-decoration: none;
+}
+  
+/* change la couleur en noir lorsqu'on survole */
+li a:hover {
+    background-color: #111;
+}
+
+/* rubrique a propos*/
+
+#propos{
+    /*titre*/
+    text-align: center;
+    text-decoration: underline;
+}
+
+/*article identite*/
+
+#identite{
+    text-align: center;
+    text-decoration: underline;
+}
+#intro{
+    float: inline-end;
+}
+
+/*div class=profil*/
+.profil{
+    padding: 0px 10px 0px 10px;
+    float: left;
+    width: 158px; 
+}
+.profil img{
     width: 50px;
+    float: left;
 }
-.identite{
-    border-style: hidden;
-    background-color: aqua;
-    width: auto;
-    height: auto;
-    float:right;
+#profil p{
+   margin-top: 150px;
 }
-.identite p{
-    font-size: larger;
-}
-.nom img{
-    width: 50px;
-    display: inline;
+
+/*div class=adresse*/
+.adresse{
+    float: inline-start;
+    position: relative;
+    margin: 5px 500px 500px 0px;
+    padding: 0px 10px 0px 10px;
+    width: 158px;
 }
 .adresse img{
     width: 50px;
-    display: inline;
+    float: left;
+}
+.adresse p{
+    margin: 0px 10px 10px 50px;
+}
+
+/*div class=mail*/
+
+.mail{
+    float:left;
+    position: absolute;
+    margin: 0px 0px 0px 250px;
 }
 .mail img{
     width: 50px;
-    display:inline;
+    float:left;
+}
+.mail p{
+    margin: 15px 10px 10px 55px;
+}
+
+/*div class=permis*/
+
+.permis{
+    float:left;
+    position: absolute;
+    margin: 60px 0px 0px 250px;
 }
 .permis img{
     width: 50px;
-    display: inline;
+    float:left;
+}
+.permis p{
+    float: left;
 }
 
-.Experience img{
-    width: 50px;
+/* cinquieme hr*/
+
+#hrcinq{
+    padding: 0px 0px 0px 1250px;
+    margin: 25px 0px 0px 25px;
 }
-.Formation img{
-    width: 50px;
+
+/*div experience*/
+
+#experience{
+    margin-top: 200px;
+    margin-left: 615px;
+    text-decoration: underline;
+    position: absolute;
+    text-align: center;
 }
-.Competence img{
-    width: 50px;
+#expe{
+    text-align:justify center;
+    margin-top: 250px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-right: 0px;
+    float: left;
+    position: absolute;
 }
-.Qualite img{
-    width: 50px;
+
+/*hr six*/
+
+#hrsix{
+    float: left;
+    position: relative;
+    /*margin-top: 700px;*/
+    /*margin-bottom: 50px;*/
+    padding: 0px 0px 0px 1333px;
+
 }
-.Loisir img{
+
+/*Parcours*/
+#parcours{
+    text-align: center;
+    text-decoration: underline;
+    position: relative;
+    margin-top: 735px;
+    margin-left: 0px;
+}
+#formation{
+    text-align: center;
+}
+
+/*Competence*/
+
+#competence{
+    text-align: center;
+    text-decoration: underline;
+}
+#atout{
+    text-align: center;
+}
+
+/*qualité*/
+
+#qualite{
+    text-align: center;
+    text-decoration: underline
+}
+
+/*centre d'intéret*/
+
+#interet{
+    text-align: center;
+    text-decoration: underline;
+}
+#intrt{
+    text-align: center;
+}
+
+/*fleche*/
+
+#fleche{
     width: 50px;
+    position: relative;
+    float: right;
 }
